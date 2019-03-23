@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
 })
 
 export class ServerComponent {
+  serverId = 1; //declaring variable here, instead of key: value
+  serverStatus = "online";
+
+  genServerStatus() {
+    return this.serverStatus;
+  }
 }

@@ -1,1 +1,7 @@
 <h3>Hello Servers</h3>
+<button [disabled]="!allowNewServer" class="btn btn-primary">add button</button>
+<p [innerText]="allowNewServer"></p> <!-- property binding -->
+<hr>
+<p>{{ allowNewServer }}</p> <!-- string interpulation -->
+
+<app-server></app-server>
